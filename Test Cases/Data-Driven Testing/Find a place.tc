@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find a place</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e8fc63b-f507-4e5f-acb1-44d86dfd31ef</testCaseGuid>
+   <variable>
+      <defaultValue>'Atlanta'</defaultValue>
+      <description></description>
+      <id>da40ef23-67be-48cd-8e14-27b2bd1064d9</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'places in Atlanta'</defaultValue>
+      <description></description>
+      <id>05a97bfd-11fd-41da-ae5a-abf94789de7d</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

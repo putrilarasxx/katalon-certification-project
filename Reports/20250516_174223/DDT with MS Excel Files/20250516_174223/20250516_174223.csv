@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT with MS Excel Files,Chrome 136.0.7103.114,,,16-05-2025 17:42:29,16-05-2025 17:43:34,1m - 5.777s,FAILED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place,Chrome 136.0.7103.114,,,16-05-2025 17:42:29,16-05-2025 17:42:51,22.107s,PASSED
+"DATA BINDING - {""city"":""Tokyo"",""expectedResult"":""places in Tokyo""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 17:42:29,16-05-2025 17:42:33,3.466s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 136.0.7103.114,,,16-05-2025 17:42:33,16-05-2025 17:42:35,2.244s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_Got it""))",Chrome 136.0.7103.114,,,16-05-2025 17:42:35,16-05-2025 17:42:40,4.823s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 136.0.7103.114,,,16-05-2025 17:42:40,16-05-2025 17:42:42,2.144s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Bandung""))",Chrome 136.0.7103.114,,,16-05-2025 17:42:42,16-05-2025 17:42:43,1.279s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_16""))",Chrome 136.0.7103.114,,,16-05-2025 17:42:43,16-05-2025 17:42:44,0.836s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_17""))",Chrome 136.0.7103.114,,,16-05-2025 17:42:44,16-05-2025 17:42:45,0.715s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Search""))",Chrome 136.0.7103.114,,,16-05-2025 17:42:45,16-05-2025 17:42:46,0.752s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f""))",Chrome 136.0.7103.114,,,16-05-2025 17:42:46,16-05-2025 17:42:49,3.159s,PASSED
+"verifyTextPresent(expectedResult, false)",Chrome 136.0.7103.114,,,16-05-2025 17:42:49,16-05-2025 17:42:50,1.724s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,16-05-2025 17:42:50,16-05-2025 17:42:51,0.533s,PASSED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place,Chrome 136.0.7103.114,,,16-05-2025 17:42:51,16-05-2025 17:43:13,21.883s,PASSED
+"DATA BINDING - {""city"":""New York"",""expectedResult"":""places in New York""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 17:42:51,16-05-2025 17:42:52,1.254s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 136.0.7103.114,,,16-05-2025 17:42:52,16-05-2025 17:42:54,2.121s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_Got it""))",Chrome 136.0.7103.114,,,16-05-2025 17:42:54,16-05-2025 17:42:59,4.914s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 136.0.7103.114,,,16-05-2025 17:42:59,16-05-2025 17:43:01,2.061s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Bandung""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:01,16-05-2025 17:43:03,1.519s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_16""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:03,16-05-2025 17:43:04,1.109s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_17""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:04,16-05-2025 17:43:05,0.670s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Search""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:05,16-05-2025 17:43:06,0.782s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:06,16-05-2025 17:43:11,5.163s,PASSED
+"verifyTextPresent(expectedResult, false)",Chrome 136.0.7103.114,,,16-05-2025 17:43:11,16-05-2025 17:43:13,1.856s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,16-05-2025 17:43:13,16-05-2025 17:43:13,0.388s,PASSED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place,Chrome 136.0.7103.114,,,16-05-2025 17:43:13,16-05-2025 17:43:34,21.373s,FAILED
+"DATA BINDING - {""city"":""Jeju"",""expectedResult"":""places in Jeju""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 17:43:13,16-05-2025 17:43:14,1.186s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 136.0.7103.114,,,16-05-2025 17:43:14,16-05-2025 17:43:17,2.855s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_Got it""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:17,16-05-2025 17:43:21,4.030s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 136.0.7103.114,,,16-05-2025 17:43:21,16-05-2025 17:43:23,1.941s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Bandung""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:23,16-05-2025 17:43:24,1.274s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_16""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:24,16-05-2025 17:43:25,0.973s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_17""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:25,16-05-2025 17:43:26,1.062s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Search""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:26,16-05-2025 17:43:27,0.725s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f""))",Chrome 136.0.7103.114,,,16-05-2025 17:43:27,16-05-2025 17:43:31,3.700s,PASSED
+"verifyTextPresent(expectedResult, false)",Chrome 136.0.7103.114,,,16-05-2025 17:43:31,16-05-2025 17:43:34,3.600s,FAILED

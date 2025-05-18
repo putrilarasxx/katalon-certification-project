@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Search results Over 1,000 places in Ban_c0102f</name>
+   <tag></tag>
+   <elementGuidId>54048c3b-dbf3-4c90-b03c-61425a008afd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.p17a5psn.atm_1c_1qa02d5.atm_y_dgicwn.atm_12_1hrf63d.atm_q_1kzeml1.atm_9s_1txwivl.atm_ar_vrvcex.atm_h_1h6ojuz.atm_fc_1yb4nlp.atm_cx_evh4rp.atm_j6_o2hh0h.dir.dir-ltr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a0ca292c-3aae-4a5b-929f-1f8852055966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p17a5psn atm_1c_1qa02d5 atm_y_dgicwn atm_12_1hrf63d atm_q_1kzeml1 atm_9s_1txwivl atm_ar_vrvcex atm_h_1h6ojuz atm_fc_1yb4nlp atm_cx_evh4rp atm_j6_o2hh0h dir dir-ltr</value>
+      <webElementGuid>f400b9de-0b1e-4dea-8e3b-9671f0fa6e19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search results; Over 1,000 places in BandungOver 1,000 places in BandungPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all fees</value>
+      <webElementGuid>68c36366-17a1-42bc-993e-808912f44e25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;l196t2l1 atm_gz_p5ox87 atm_h0_p5ox87 atm_gq_r5k8ab atm_gz_1od0ugv__oggzyc atm_h0_1od0ugv__oggzyc atm_gq_idpfg4__oggzyc atm_gz_p5ox87__1v156lz atm_h0_p5ox87__1v156lz atm_gq_idpfg4__1v156lz dir dir-ltr&quot;]/div[@class=&quot;f1arl239 atm_gq_p5ox87 atm_h3_p5ox87 dir dir-ltr&quot;]/div[@class=&quot;c1yo0219 atm_9s_1txwivl_vmtskl atm_92_1yyfdc7_vmtskl atm_9s_1txwivl_9in345 atm_92_1yyfdc7_9in345 dir dir-ltr&quot;]/div[1]/div[@class=&quot;p17a5psn atm_1c_1qa02d5 atm_y_dgicwn atm_12_1hrf63d atm_q_1kzeml1 atm_9s_1txwivl atm_ar_vrvcex atm_h_1h6ojuz atm_fc_1yb4nlp atm_cx_evh4rp atm_j6_o2hh0h dir dir-ltr&quot;]</value>
+      <webElementGuid>210a17dd-442b-4a46-978a-f4c4264cb560</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/div/div/div</value>
+      <webElementGuid>2c9983c0-88bb-4968-89a7-f27241eae621</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show map'])[1]/following::div[7]</value>
+      <webElementGuid>716d5fb5-c456-4848-a6e5-cb021ba04b1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Become a host'])[1]/following::div[12]</value>
+      <webElementGuid>da8f8f6b-2189-49ba-b20f-18b41abd0b5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div[2]/div/div/div/div/div</value>
+      <webElementGuid>82980e70-2da4-42a0-b2ba-91b092218ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Search results; Over 1,000 places in BandungOver 1,000 places in BandungPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all fees' or . = 'Search results; Over 1,000 places in BandungOver 1,000 places in BandungPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all feesPrices include all fees')]</value>
+      <webElementGuid>77bd36ce-8bd6-421d-89c0-d08f34969ec3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

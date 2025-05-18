@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT with MS Excel Files" time="65.777" tests="3" failures="1" errors="0">
+   <testsuite name="DDT with MS Excel Files" tests="3" failures="1" errors="0" time="65.777" skipped="0" timestamp="16-05-2025T17:42:29" hostname="asus - LAPTOP-LNPAQTKK" id="Test Suites/DDT with MS Excel Files">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asus\\OneDrive - Telkom University\\Documents\\GitHub\\Record and Playback\\Reports\\20250516_174223\\DDT with MS Excel Files\\20250516_174223"/>
+         <property name="logFiles" value="C:\\Users\\asus\\OneDrive - Telkom University\\Documents\\GitHub\\Record and Playback\\Reports\\20250516_174223\\DDT with MS Excel Files\\20250516_174223\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\asus\\OneDrive - Telkom University\\Documents\\GitHub\\Record and Playback\\Reports\\20250516_174223\\DDT with MS Excel Files\\20250516_174223\\1747392214506.png"/>
+         <property name="hostName" value="asus - LAPTOP-LNPAQTKK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 136.0.7103.114"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="sessionId" value="68e16bcffb2e557c51a00754394eed3e"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data-Driven Testing/Find a place" time="22.107" classname="Test Cases/Data-Driven Testing/Find a place" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"city":"Tokyo","expectedResult":"places in Tokyo"}]]></property>
+         </properties>
+         <system-out><![CDATA[16-05-2025T17:42:29 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing/Find a place: Test Cases/Data-Driven Testing/Find a place
+
+16-05-2025T17:42:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-05-2025T17:42:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-05-2025T17:42:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-05-2025T17:42:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-05-2025T17:42:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+16-05-2025T17:42:35 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+16-05-2025T17:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_Got it")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_Got it' is clicked on
+
+16-05-2025T17:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_Got it' is clicked on
+
+16-05-2025T17:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Airbnb Pages/Page_Search/input_Where_query"), city): Text 'Tokyo' is set on object 'Object Repository/Airbnb Pages/Page_Search/input_Where_query'
+
+16-05-2025T17:42:42 - [MESSAGE][PASSED] - Text 'Tokyo' is set on object 'Object Repository/Airbnb Pages/Page_Search/input_Where_query'
+
+16-05-2025T17:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/div_Bandung")): Object: 'Object Repository/Airbnb Pages/Page_Search/div_Bandung' is clicked on
+
+16-05-2025T17:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/div_Bandung' is clicked on
+
+16-05-2025T17:42:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_16")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_16' is clicked on
+
+16-05-2025T17:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_16' is clicked on
+
+16-05-2025T17:42:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_17")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_17' is clicked on
+
+16-05-2025T17:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_17' is clicked on
+
+16-05-2025T17:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/div_Search")): Object: 'Object Repository/Airbnb Pages/Page_Search/div_Search' is clicked on
+
+16-05-2025T17:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/div_Search' is clicked on
+
+16-05-2025T17:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f")): Object: 'Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f' is clicked on
+
+16-05-2025T17:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f' is clicked on
+
+16-05-2025T17:42:49 - [TEST_STEP][PASSED] - verifyTextPresent(expectedResult, false): Text 'places in Tokyo' is present on page 
+
+16-05-2025T17:42:50 - [MESSAGE][PASSED] - Text 'places in Tokyo' is present on page 
+
+16-05-2025T17:42:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-05-2025T17:42:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing/Find a place" time="21.883" classname="Test Cases/Data-Driven Testing/Find a place" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"city":"New York","expectedResult":"places in New York"}]]></property>
+         </properties>
+         <system-out><![CDATA[16-05-2025T17:42:51 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing/Find a place: Test Cases/Data-Driven Testing/Find a place
+
+16-05-2025T17:42:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-05-2025T17:42:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-05-2025T17:42:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-05-2025T17:42:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-05-2025T17:42:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+16-05-2025T17:42:54 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+16-05-2025T17:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_Got it")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_Got it' is clicked on
+
+16-05-2025T17:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_Got it' is clicked on
+
+16-05-2025T17:42:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Airbnb Pages/Page_Search/input_Where_query"), city): Text 'New York' is set on object 'Object Repository/Airbnb Pages/Page_Search/input_Where_query'
+
+16-05-2025T17:43:01 - [MESSAGE][PASSED] - Text 'New York' is set on object 'Object Repository/Airbnb Pages/Page_Search/input_Where_query'
+
+16-05-2025T17:43:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/div_Bandung")): Object: 'Object Repository/Airbnb Pages/Page_Search/div_Bandung' is clicked on
+
+16-05-2025T17:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/div_Bandung' is clicked on
+
+16-05-2025T17:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_16")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_16' is clicked on
+
+16-05-2025T17:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_16' is clicked on
+
+16-05-2025T17:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_17")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_17' is clicked on
+
+16-05-2025T17:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_17' is clicked on
+
+16-05-2025T17:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/div_Search")): Object: 'Object Repository/Airbnb Pages/Page_Search/div_Search' is clicked on
+
+16-05-2025T17:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/div_Search' is clicked on
+
+16-05-2025T17:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f")): Object: 'Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f' is clicked on
+
+16-05-2025T17:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f' is clicked on
+
+16-05-2025T17:43:11 - [TEST_STEP][PASSED] - verifyTextPresent(expectedResult, false): Text 'places in New York' is present on page 
+
+16-05-2025T17:43:13 - [MESSAGE][PASSED] - Text 'places in New York' is present on page 
+
+16-05-2025T17:43:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-05-2025T17:43:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing/Find a place" time="21.373" classname="Test Cases/Data-Driven Testing/Find a place" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"city":"Jeju","expectedResult":"places in Jeju"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Data-Driven Testing/Find a place FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'places in Jeju' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)&#xa;	at Find a place.run(Find a place:40)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[16-05-2025T17:43:13 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing/Find a place: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'places in Jeju' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at Find a place.run(Find a place:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+16-05-2025T17:43:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-05-2025T17:43:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-05-2025T17:43:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-05-2025T17:43:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-05-2025T17:43:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+16-05-2025T17:43:17 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+16-05-2025T17:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_Got it")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_Got it' is clicked on
+
+16-05-2025T17:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_Got it' is clicked on
+
+16-05-2025T17:43:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Airbnb Pages/Page_Search/input_Where_query"), city): Text 'Jeju' is set on object 'Object Repository/Airbnb Pages/Page_Search/input_Where_query'
+
+16-05-2025T17:43:23 - [MESSAGE][PASSED] - Text 'Jeju' is set on object 'Object Repository/Airbnb Pages/Page_Search/input_Where_query'
+
+16-05-2025T17:43:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/div_Bandung")): Object: 'Object Repository/Airbnb Pages/Page_Search/div_Bandung' is clicked on
+
+16-05-2025T17:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/div_Bandung' is clicked on
+
+16-05-2025T17:43:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_16")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_16' is clicked on
+
+16-05-2025T17:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_16' is clicked on
+
+16-05-2025T17:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/button_17")): Object: 'Object Repository/Airbnb Pages/Page_Search/button_17' is clicked on
+
+16-05-2025T17:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/button_17' is clicked on
+
+16-05-2025T17:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_Search/div_Search")): Object: 'Object Repository/Airbnb Pages/Page_Search/div_Search' is clicked on
+
+16-05-2025T17:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_Search/div_Search' is clicked on
+
+16-05-2025T17:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f")): Object: 'Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f' is clicked on
+
+16-05-2025T17:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f' is clicked on
+
+16-05-2025T17:43:31 - [TEST_STEP][FAILED] - verifyTextPresent(expectedResult, false): Unable to verify text 'places in Jeju' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'places in Jeju' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at Find a place.run(Find a place:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+)
+
+16-05-2025T17:43:34 - [MESSAGE][FAILED] - Text 'places in Jeju' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at Find a place.run(Find a place:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+16-05-2025T17:43:34 - [MESSAGE][FAILED] - Unable to verify text 'places in Jeju' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'places in Jeju' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at Find a place.run(Find a place:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\asus\\OneDrive - Telkom University\\Documents\\GitHub\\Record and Playback\\Reports\\20250516_174223\\DDT with MS Excel Files\\20250516_174223\\1747392214506.png]]]]></system-out>
+         <system-err><![CDATA[16-05-2025T17:43:13 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing/Find a place: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'places in Jeju' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at Find a place.run(Find a place:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-05-2025T17:42:29 - [TEST_SUITE][FAILED] - DDT with MS Excel Files: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'places in Jeju' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at Find a place.run(Find a place:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[16-05-2025T17:42:29 - [TEST_SUITE][FAILED] - DDT with MS Excel Files: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'places in Jeju' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at Find a place.run(Find a place:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1747392143853.run(TempTestSuite1747392143853.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'places in Jeju' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

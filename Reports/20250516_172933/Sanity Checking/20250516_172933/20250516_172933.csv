@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity Checking,Chrome 136.0.7103.114,,,16-05-2025 17:29:39,16-05-2025 17:30:41,1m - 1.741s,FAILED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place,Chrome 136.0.7103.114,,,16-05-2025 17:29:39,16-05-2025 17:30:03,23.966s,FAILED
+"DATA BINDING - {""city"":""Seoul"",""expectedResult"":""places in Seoul""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 17:29:40,16-05-2025 17:29:43,3.640s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 136.0.7103.114,,,16-05-2025 17:29:43,16-05-2025 17:29:46,2.916s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_Got it""))",Chrome 136.0.7103.114,,,16-05-2025 17:29:46,16-05-2025 17:29:51,4.263s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 136.0.7103.114,,,16-05-2025 17:29:51,16-05-2025 17:29:53,2.006s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Bandung""))",Chrome 136.0.7103.114,,,16-05-2025 17:29:53,16-05-2025 17:29:54,1.537s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_16""))",Chrome 136.0.7103.114,,,16-05-2025 17:29:54,16-05-2025 17:29:55,1.138s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_17""))",Chrome 136.0.7103.114,,,16-05-2025 17:29:55,16-05-2025 17:29:56,0.698s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Search""))",Chrome 136.0.7103.114,,,16-05-2025 17:29:56,16-05-2025 17:29:57,1.193s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f""))",Chrome 136.0.7103.114,,,16-05-2025 17:29:57,16-05-2025 17:30:01,3.811s,PASSED
+"verifyTextPresent(expectedResult, false)",Chrome 136.0.7103.114,,,16-05-2025 17:30:01,16-05-2025 17:30:03,2.314s,FAILED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place,Chrome 136.0.7103.114,,,16-05-2025 17:30:03,16-05-2025 17:30:16,12.948s,FAILED
+"DATA BINDING - {""city"":""Busan"",""expectedResult"":""places in Busan""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 17:30:04,16-05-2025 17:30:05,1.912s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 136.0.7103.114,,,16-05-2025 17:30:05,16-05-2025 17:30:11,5.317s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_Got it""))",Chrome 136.0.7103.114,,,16-05-2025 17:30:11,16-05-2025 17:30:16,5.652s,FAILED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place,Chrome 136.0.7103.114,,,16-05-2025 17:30:16,16-05-2025 17:30:41,24.301s,PASSED
+"DATA BINDING - {""city"":""Paris"",""expectedResult"":""places in Paris""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 17:30:16,16-05-2025 17:30:18,1.450s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 136.0.7103.114,,,16-05-2025 17:30:18,16-05-2025 17:30:21,3.249s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_Got it""))",Chrome 136.0.7103.114,,,16-05-2025 17:30:21,16-05-2025 17:30:26,4.996s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 136.0.7103.114,,,16-05-2025 17:30:26,16-05-2025 17:30:28,2.211s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Bandung""))",Chrome 136.0.7103.114,,,16-05-2025 17:30:28,16-05-2025 17:30:30,1.560s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_16""))",Chrome 136.0.7103.114,,,16-05-2025 17:30:30,16-05-2025 17:30:31,1.309s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/button_17""))",Chrome 136.0.7103.114,,,16-05-2025 17:30:31,16-05-2025 17:30:32,0.788s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Search""))",Chrome 136.0.7103.114,,,16-05-2025 17:30:32,16-05-2025 17:30:33,0.718s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_Search results Over 1,000 places in Ban_c0102f""))",Chrome 136.0.7103.114,,,16-05-2025 17:30:33,16-05-2025 17:30:38,5.120s,PASSED
+"verifyTextPresent(expectedResult, false)",Chrome 136.0.7103.114,,,16-05-2025 17:30:38,16-05-2025 17:30:40,2.552s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,16-05-2025 17:30:40,16-05-2025 17:30:41,0.322s,PASSED

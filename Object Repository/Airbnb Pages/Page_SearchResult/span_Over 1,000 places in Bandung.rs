@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Over 1,000 places in Bandung</name>
+   <tag></tag>
+   <elementGuidId>8d9d32ad-e8a5-4ca6-802c-64d66d061301</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.tpzssgw.atm_c8_9ni6hd.atm_g3_1flll2m.atm_fr_1u45igx.atm_cs_10d11i2.dir.dir-ltr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/div/div/div/div/section/h1/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4137001a-22c9-4686-ab6a-639535556327</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tpzssgw atm_c8_9ni6hd atm_g3_1flll2m atm_fr_1u45igx atm_cs_10d11i2 dir dir-ltr</value>
+      <webElementGuid>7f099317-53f9-4dfe-ad22-0cffe2749f83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a6896d1b-72e6-4f7d-9322-bdb2d0fd0d5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>stays-page-heading</value>
+      <webElementGuid>55d90df6-f065-4e38-ba11-40e2ce7fd2df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Over 1,000 places in Bandung</value>
+      <webElementGuid>c732510f-9438-4e4b-b2fa-d9475e8e8d31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;l196t2l1 atm_gz_p5ox87 atm_h0_p5ox87 atm_gq_r5k8ab atm_gz_1od0ugv__oggzyc atm_h0_1od0ugv__oggzyc atm_gq_idpfg4__oggzyc atm_gz_p5ox87__1v156lz atm_h0_p5ox87__1v156lz atm_gq_idpfg4__1v156lz dir dir-ltr&quot;]/div[@class=&quot;f1arl239 atm_gq_p5ox87 atm_h3_p5ox87 dir dir-ltr&quot;]/div[@class=&quot;c1yo0219 atm_9s_1txwivl_vmtskl atm_92_1yyfdc7_vmtskl atm_9s_1txwivl_9in345 atm_92_1yyfdc7_9in345 dir dir-ltr&quot;]/div[1]/div[@class=&quot;p17a5psn atm_1c_1qa02d5 atm_y_dgicwn atm_12_1hrf63d atm_q_1kzeml1 atm_9s_1txwivl atm_ar_vrvcex atm_h_1h6ojuz atm_fc_1yb4nlp atm_cx_evh4rp atm_j6_o2hh0h dir dir-ltr&quot;]/div[@class=&quot;tvvdp4b atm_9s_1txwivl atm_ar_1bp4okc atm_cx_1lkvw50 atm_fc_1h6ojuz dir dir-ltr&quot;]/section[1]/h1[@class=&quot;hpipapi atm_7l_1kw7nm4 atm_c8_1x4eueo atm_cs_1kw7nm4 atm_g3_1kw7nm4 atm_gi_idpfg4 atm_l8_idpfg4 atm_kd_idpfg4_pfnrn2 dir dir-ltr&quot;]/span[@class=&quot;tpzssgw atm_c8_9ni6hd atm_g3_1flll2m atm_fr_1u45igx atm_cs_10d11i2 dir dir-ltr&quot;]</value>
+      <webElementGuid>03adb86d-0ee8-4612-b3c2-1285030208fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/div/div/div/div/section/h1/span[2]</value>
+      <webElementGuid>3240b0e4-fde4-419f-8f93-25894ccda379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search results; Over 1,000 places in Bandung'])[1]/following::span[1]</value>
+      <webElementGuid>b1615715-ae30-444e-a6a0-786ef2fb5503</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show map'])[1]/following::span[2]</value>
+      <webElementGuid>4eb1bf44-bfc2-485c-aa25-446b3c57c7f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prices include all fees'])[1]/preceding::span[1]</value>
+      <webElementGuid>fb07890a-1bea-49c3-9de3-531d03de85ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Over 1,000 places in Bandung']/parent::*</value>
+      <webElementGuid>a11cf5ff-ab5c-47f6-a3d1-58d947226e9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/span[2]</value>
+      <webElementGuid>edff1b16-6576-4a64-ac72-0b29d267158a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Over 1,000 places in Bandung' or . = 'Over 1,000 places in Bandung')]</value>
+      <webElementGuid>d56fb675-dd71-4a69-bf2c-588a0e3cc73b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
