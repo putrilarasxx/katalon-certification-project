@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS02_Appointment validation2,Firefox 138.0.4,,,18-05-2025 14:49:54,18-05-2025 14:51:02,1m - 7.863s,PASSED
+,,,,,,,
+Test Cases/Main Test Case/MTC01_Make an appointment with doctor,Firefox 138.0.4,,smoke,18-05-2025 14:49:54,18-05-2025 14:50:38,44.056s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC01_Login into application""), [:], STOP_ON_FAILURE)",Firefox 138.0.4,,,18-05-2025 14:49:55,18-05-2025 14:50:29,34.609s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC03_Book an appointment""), [""healthcareCenter"":""Hongkong CURA Healthcare Center"", ""comment"":""Test katalon""], STOP_ON_FAILURE)",Firefox 138.0.4,,,18-05-2025 14:50:29,18-05-2025 14:50:36,6.350s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC02_Logout from application""), [:], STOP_ON_FAILURE)",Firefox 138.0.4,,,18-05-2025 14:50:36,18-05-2025 14:50:38,2.698s,PASSED
+,,,,,,,
+Test Cases/Main Test Case/MTC02_Appointment confirmation from doctor,Firefox 138.0.4,,,18-05-2025 14:50:38,18-05-2025 14:51:02,23.547s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC01_Login into application""), [:], STOP_ON_FAILURE)",Firefox 138.0.4,,,18-05-2025 14:50:38,18-05-2025 14:50:54,15.279s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC03_Book an appointment""), [""healthcareCenter"":""Hongkong CURA Healthcare Center"", ""comment"":""Test katalon""], STOP_ON_FAILURE)",Firefox 138.0.4,,,18-05-2025 14:50:54,18-05-2025 14:50:59,5.683s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC02_Logout from application""), [:], STOP_ON_FAILURE)",Firefox 138.0.4,,,18-05-2025 14:50:59,18-05-2025 14:51:02,2.569s,PASSED

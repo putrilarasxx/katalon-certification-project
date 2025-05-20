@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Time_Attendance_MenuCheck</name>
+   <tag>@Time @Navigation @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>864c0c47-af5f-46c3-9d85-844a4f5ef589</testCaseGuid>
+</TestCaseEntity>

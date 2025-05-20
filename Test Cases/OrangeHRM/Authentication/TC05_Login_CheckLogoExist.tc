@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Login_CheckLogoExist</name>
+   <tag>@UIValidation @SmokeTest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e71947d-7c56-46bd-bbb4-e088baf0ac79</testCaseGuid>
+</TestCaseEntity>

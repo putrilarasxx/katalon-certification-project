@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Allow login with credentials</description>
+   <name>RTC01_Login into application</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79b67f14-58e7-420f-b02d-1e73d99d07a8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RTS01_Appointment modul test,,,,18-05-2025 14:54:11,18-05-2025 14:54:35,24.134s,FAILED
+,,,,,,,
+Test Cases/Main Test Case/MTC01_Make an appointment with doctor,,,smoke,18-05-2025 14:54:11,18-05-2025 14:54:25,13.375s,FAILED
+"callTestCase(findTestCase(""Reuse Test Case/RTC01_Login into application""), [:], STOP_ON_FAILURE)",,,,18-05-2025 14:54:12,18-05-2025 14:54:25,12.768s,FAILED
+,,,,,,,
+Test Cases/Main Test Case/MTC02_Appointment confirmation from doctor,,,,18-05-2025 14:54:25,18-05-2025 14:54:35,10.319s,FAILED
+"callTestCase(findTestCase(""Reuse Test Case/RTC01_Login into application""), [:], STOP_ON_FAILURE)",,,,18-05-2025 14:54:25,18-05-2025 14:54:35,10.264s,FAILED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Admin_AddNationality</name>
+   <tag>@Admin @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25072b7e-08f4-4313-b27f-843a7c76ca5d</testCaseGuid>
+</TestCaseEntity>

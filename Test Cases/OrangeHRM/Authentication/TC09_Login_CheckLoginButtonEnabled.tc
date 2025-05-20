@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_Login_CheckLoginButtonEnabled</name>
+   <tag>@Login @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>77bce0b2-4994-4380-ba93-4da77cf4d7a8</testCaseGuid>
+</TestCaseEntity>

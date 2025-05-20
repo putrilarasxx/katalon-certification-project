@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Dashboard_ElementsVisible</name>
+   <tag>@Dashboard @UIValidation @SmokeTest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea861d23-a43f-4ffd-8ae6-df59e4b5d1b7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_PIM_EmployeeInfoPlaceholder</name>
+   <tag>@PIM @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b5b5ef7-9fe8-44ef-b307-488e86beeca1</testCaseGuid>
+</TestCaseEntity>

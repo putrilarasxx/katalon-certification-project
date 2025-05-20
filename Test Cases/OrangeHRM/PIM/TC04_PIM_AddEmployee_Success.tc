@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_PIM_AddEmployee_Success</name>
+   <tag>@PIM @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66569ebd-9d08-4039-b2e5-fa7c47e6e503</testCaseGuid>
+</TestCaseEntity>

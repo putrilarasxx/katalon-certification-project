@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Allow user to book an appointment</description>
+   <name>RTC03_Book an appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0fc489a-a564-4d10-b42c-bb155e03a122</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2538a6f6-61c8-4b2d-98cd-903b7f7b6567</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6893fd61-0a89-4a4f-982c-941bebfcace7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>2538a6f6-61c8-4b2d-98cd-903b7f7b6567</id>
+      <masked>false</masked>
+      <name>healthcareCenter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test katalon'</defaultValue>
+      <description></description>
+      <id>6893fd61-0a89-4a4f-982c-941bebfcace7</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

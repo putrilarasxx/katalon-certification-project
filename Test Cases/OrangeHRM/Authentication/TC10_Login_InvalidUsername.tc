@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_Login_InvalidUsername</name>
+   <tag>@Login @UIValidation @Negative</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>929004f1-2a1d-4100-a4bc-657efcc50137</testCaseGuid>
+</TestCaseEntity>

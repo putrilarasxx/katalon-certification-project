@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Claim_SubmitClaim_ElementsVisible</name>
+   <tag>@Claim @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e15e5cbe-a645-442a-961a-061116ed47d1</testCaseGuid>
+</TestCaseEntity>

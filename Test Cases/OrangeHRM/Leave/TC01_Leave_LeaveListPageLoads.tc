@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Leave_LeaveListPageLoads</name>
+   <tag>@Leave @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15106b64-3039-4063-ab1d-9bf7093f4143</testCaseGuid>
+</TestCaseEntity>

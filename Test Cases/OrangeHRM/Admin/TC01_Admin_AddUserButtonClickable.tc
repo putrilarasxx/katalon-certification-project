@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Admin_AddUserButtonClickable</name>
+   <tag>@Admin @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b6b9058-28b8-436a-8279-145cb5ce41e2</testCaseGuid>
+</TestCaseEntity>

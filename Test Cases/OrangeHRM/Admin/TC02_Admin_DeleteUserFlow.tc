@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Admin_DeleteUserFlow</name>
+   <tag>@Admin @Functional @Regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ebd66e4-e52a-4d2d-8379-7e5e5150c94e</testCaseGuid>
+</TestCaseEntity>

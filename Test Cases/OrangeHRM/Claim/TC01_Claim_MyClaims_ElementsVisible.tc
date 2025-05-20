@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Claim_MyClaims_ElementsVisible</name>
+   <tag>@Claim @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2596fcb-eaa2-4800-a8d0-daedb636af12</testCaseGuid>
+</TestCaseEntity>

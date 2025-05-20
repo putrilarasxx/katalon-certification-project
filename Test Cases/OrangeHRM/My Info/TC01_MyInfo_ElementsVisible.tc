@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_MyInfo_ElementsVisible</name>
+   <tag>@MyInfo @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65de5add-e5c8-4378-a1ec-89f6fe99d518</testCaseGuid>
+</TestCaseEntity>

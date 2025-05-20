@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Login_LogoutFlow</name>
+   <tag>@Login @Functional @SmokeTest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>88661187-456a-499d-acdb-00ea4974da80</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_MenuVisibility</name>
+   <tag>@UIValidation @Navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20248ac5-b0d9-4b5c-aa08-ed034411ae89</testCaseGuid>
+</TestCaseEntity>

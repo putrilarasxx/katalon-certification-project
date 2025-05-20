@@ -1,0 +1,57 @@
+/internal/
+/CustomKeywords.class
+/TempTestCase1747391372441.class
+/TempTestCase1747392031362.class
+/TempTestCase1747392142689.class
+/TempTestCase1747554472112.class
+/TempTestCase1747554474216.class
+/TempTestCase1747554476702.class
+/TempTestCase1747554478298.class
+/TempTestCase1747554782449.class
+/TempTestCase1747554784544.class
+/TempTestCase1747554787000.class
+/TempTestCase1747755632175.class
+/TempTestCase1747755981032.class
+/TempTestCase1747756164087.class
+/TempTestCase1747756259411.class
+/TempTestCase1747756578112.class
+
+# Ignore build folders
+/bin/
+/Libs/
+.classpath
+.project
+.settings/
+
+# Ignore test reports
+/Reports/
+
+# Ignore temp files and logs
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore execution settings
+/.cache/
+/.settings/
+/TestOpsConfig/
+
+# Ignore local profiles or user settings
+*.properties
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+desktop.ini
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+
+# Optional: ignore screenshots or captured evidence
+/Screenshots/

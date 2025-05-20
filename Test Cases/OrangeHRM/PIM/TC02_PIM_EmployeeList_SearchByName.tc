@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_PIM_EmployeeList_SearchByName</name>
+   <tag>@PIM @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6410a15-4c22-439f-83f6-b94c7081d540</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Profile_AboutModalLoad</name>
+   <tag>@MyInfo @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3a8acbf-40d2-46fa-b6ce-91529c361013</testCaseGuid>
+</TestCaseEntity>

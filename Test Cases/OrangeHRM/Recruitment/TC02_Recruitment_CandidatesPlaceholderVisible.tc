@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Recruitment_CandidatesPlaceholderVisible</name>
+   <tag>@Recruitment @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ede4a3e-54e2-4d68-8c1c-0df36cfbaeec</testCaseGuid>
+</TestCaseEntity>

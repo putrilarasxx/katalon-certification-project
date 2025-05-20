@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Leave_AssignFormValidation</name>
+   <tag>@Leave @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b795722-2e0a-48ef-a825-4b07f31a84b6</testCaseGuid>
+</TestCaseEntity>

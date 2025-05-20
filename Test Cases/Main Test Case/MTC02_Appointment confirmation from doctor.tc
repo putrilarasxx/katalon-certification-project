@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC02_Appointment confirmation from doctor</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fdb1de5d-0910-4bdb-9419-05fb2936c83a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Buzz_AddPost</name>
+   <tag>@Buzz @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ef1de8d-b92b-4b01-96eb-48602e5d22f7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3cb86e7-618d-4b3c-9915-bb10313d10b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c5d3ead4-a146-48dc-8e91-057d4a2ede69</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'hello world'</defaultValue>
+      <description></description>
+      <id>d3cb86e7-618d-4b3c-9915-bb10313d10b1</id>
+      <masked>false</masked>
+      <name>post</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5d3ead4-a146-48dc-8e91-057d4a2ede69</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

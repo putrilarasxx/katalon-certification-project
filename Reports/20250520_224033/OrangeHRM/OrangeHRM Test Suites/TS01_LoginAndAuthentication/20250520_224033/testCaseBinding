@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC01_Login_ValidCredentials","testCaseId":"Test Cases/OrangeHRM/Authentication/TC01_Login_ValidCredentials","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC02_Login_InvalidPassword","testCaseId":"Test Cases/OrangeHRM/Authentication/TC02_Login_InvalidPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC03_Login_EmptyFields","testCaseId":"Test Cases/OrangeHRM/Authentication/TC03_Login_EmptyFields","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC04_Login_OnlyUsername","testCaseId":"Test Cases/OrangeHRM/Authentication/TC04_Login_OnlyUsername","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC05_Login_CheckLogoExist","testCaseId":"Test Cases/OrangeHRM/Authentication/TC05_Login_CheckLogoExist","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC06_Login_PlaceholderCheck","testCaseId":"Test Cases/OrangeHRM/Authentication/TC06_Login_PlaceholderCheck","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC07_Login_LogoutFlow","testCaseId":"Test Cases/OrangeHRM/Authentication/TC07_Login_LogoutFlow","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC08_Login_ForgetPassword_LinkVisible","testCaseId":"Test Cases/OrangeHRM/Authentication/TC08_Login_ForgetPassword_LinkVisible","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC09_Login_CheckLoginButtonEnabled","testCaseId":"Test Cases/OrangeHRM/Authentication/TC09_Login_CheckLoginButtonEnabled","iterationVariableName":""}
+{"testCaseName":"Test Cases/OrangeHRM/Authentication/TC10_Login_InvalidUsername","testCaseId":"Test Cases/OrangeHRM/Authentication/TC10_Login_InvalidUsername","iterationVariableName":""}

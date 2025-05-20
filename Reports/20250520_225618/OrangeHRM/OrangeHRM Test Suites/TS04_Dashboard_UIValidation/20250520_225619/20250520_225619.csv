@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS04_Dashboard_UIValidation,Chrome 136.0.7103.114,,,20-05-2025 22:56:25,20-05-2025 22:57:12,47.210s,FAILED
+,,,,,,,
+Test Cases/OrangeHRM/Dashboard/TC01_Dashboard_ElementsVisible,Chrome 136.0.7103.114,,@Dashboard @UIValidation @SmokeTest,20-05-2025 22:56:25,20-05-2025 22:57:12,46.867s,FAILED
+"callTestCase(findTestCase(""OrangeHRM/Authentication/TC01_Login_ValidCredentials""), [:], STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,20-05-2025 22:56:26,20-05-2025 22:56:39,13.382s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/h6_Dashboard""))",Chrome 136.0.7103.114,,,20-05-2025 22:56:39,20-05-2025 22:56:40,0.320s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/p_Time at Work""))",Chrome 136.0.7103.114,,,20-05-2025 22:56:40,20-05-2025 22:56:40,0.363s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/p_My Actions""))",Chrome 136.0.7103.114,,,20-05-2025 22:56:40,20-05-2025 22:56:40,0.302s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/p_Quick Launch""))",Chrome 136.0.7103.114,,,20-05-2025 22:56:40,20-05-2025 22:56:41,0.273s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/p_Buzz Latest Posts""))",Chrome 136.0.7103.114,,,20-05-2025 22:56:41,20-05-2025 22:56:41,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/p_Employees on Leave Today""))",Chrome 136.0.7103.114,,,20-05-2025 22:56:41,20-05-2025 22:57:12,31.432s,FAILED

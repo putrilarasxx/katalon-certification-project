@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Recruitment_CandidatesPageLoad</name>
+   <tag>@Recruitment @Functional @SmokeTest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1eb39ca2-fba6-4cd4-aef5-6e2919d2d399</testCaseGuid>
+</TestCaseEntity>

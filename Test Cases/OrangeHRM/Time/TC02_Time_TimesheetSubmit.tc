@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Time_TimesheetSubmit</name>
+   <tag>@Time @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5c1b2ce1-e434-4ca8-a5db-50f3b3bf10e9</testCaseGuid>
+</TestCaseEntity>

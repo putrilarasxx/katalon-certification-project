@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Buzz_LikePost</name>
+   <tag>@Buzz @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4851d39-e55d-47d8-ace9-49994490454b</testCaseGuid>
+</TestCaseEntity>

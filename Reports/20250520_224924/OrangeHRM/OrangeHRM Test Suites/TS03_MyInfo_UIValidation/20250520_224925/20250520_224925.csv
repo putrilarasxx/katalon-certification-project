@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03_MyInfo_UIValidation,Chrome 136.0.7103.114,,,20-05-2025 22:49:31,20-05-2025 22:50:31,59.871s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM/My Info/TC01_MyInfo_ElementsVisible,Chrome 136.0.7103.114,,@MyInfo @Functional,20-05-2025 22:49:31,20-05-2025 22:50:02,30.717s,PASSED
+"openBrowser("""")",Chrome 136.0.7103.114,,,20-05-2025 22:49:32,20-05-2025 22:49:35,3.501s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 136.0.7103.114,,,20-05-2025 22:49:35,20-05-2025 22:49:48,13.073s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 136.0.7103.114,,,20-05-2025 22:49:48,20-05-2025 22:49:50,2.026s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 136.0.7103.114,,,20-05-2025 22:49:50,20-05-2025 22:49:51,0.523s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), Keys.chord(ENTER))",Chrome 136.0.7103.114,,,20-05-2025 22:49:51,20-05-2025 22:49:51,0.365s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_My Info""))",Chrome 136.0.7103.114,,,20-05-2025 22:49:51,20-05-2025 22:49:58,6.319s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/h6_Personal Details""))",Chrome 136.0.7103.114,,,20-05-2025 22:49:58,20-05-2025 22:50:01,3.825s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/h6_d LastNameTest""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:01,20-05-2025 22:50:02,0.347s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,20-05-2025 22:50:02,20-05-2025 22:50:02,0.301s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM/My Info/TC02_Profile_AboutModalLoad,Chrome 136.0.7103.114,,@MyInfo @UIValidation,20-05-2025 22:50:02,20-05-2025 22:50:15,13.053s,PASSED
+"callTestCase(findTestCase(""OrangeHRM/Authentication/TC01_Login_ValidCredentials""), [:], STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,20-05-2025 22:50:02,20-05-2025 22:50:13,10.757s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin User""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:13,20-05-2025 22:50:13,0.353s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_About""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:13,20-05-2025 22:50:14,0.681s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/h6_About""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:14,20-05-2025 22:50:15,0.821s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,20-05-2025 22:50:15,20-05-2025 22:50:15,0.242s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM/My Info/TC03_ChangePassword_PageLoad,Chrome 136.0.7103.114,,@MyInfo @Functional @UIValidation,20-05-2025 22:50:15,20-05-2025 22:50:31,15.771s,PASSED
+"callTestCase(findTestCase(""OrangeHRM/Authentication/TC01_Login_ValidCredentials""), [:], STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,20-05-2025 22:50:15,20-05-2025 22:50:26,10.442s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/p_ahmed User""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:26,20-05-2025 22:50:26,0.382s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Change Password""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:26,20-05-2025 22:50:28,2.417s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/h6_Update Password""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:28,20-05-2025 22:50:29,0.905s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/label_Username""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:29,20-05-2025 22:50:30,0.313s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/label_Current Password""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:30,20-05-2025 22:50:30,0.342s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/label_Password""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:30,20-05-2025 22:50:30,0.328s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_OrangeHRM/label_Confirm Password""))",Chrome 136.0.7103.114,,,20-05-2025 22:50:30,20-05-2025 22:50:31,0.290s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,20-05-2025 22:50:31,20-05-2025 22:50:31,0.239s,PASSED

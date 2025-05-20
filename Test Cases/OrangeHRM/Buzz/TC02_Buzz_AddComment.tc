@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Buzz_AddComment</name>
+   <tag>@Buzz @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d89d503-4674-4180-ba86-5f2a0b38d097</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fccf41a6-93f6-4198-92d5-650b0b77eb1e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31329d57-19e6-4623-afd2-da5a3f33f37c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ini adalah komentar'</defaultValue>
+      <description></description>
+      <id>fccf41a6-93f6-4198-92d5-650b0b77eb1e</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'ini adalah komentar'</defaultValue>
+      <description></description>
+      <id>31329d57-19e6-4623-afd2-da5a3f33f37c</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

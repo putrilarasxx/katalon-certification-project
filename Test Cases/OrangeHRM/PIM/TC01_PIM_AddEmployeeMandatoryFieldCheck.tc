@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_PIM_AddEmployeeMandatoryFieldCheck</name>
+   <tag>@PIM @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e37889c2-56fc-4780-8010-c7f66efe9698</testCaseGuid>
+</TestCaseEntity>

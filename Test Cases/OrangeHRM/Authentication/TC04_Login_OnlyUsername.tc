@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Login_OnlyUsername</name>
+   <tag>@Login @UIValidation @Negative</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fca50aa2-d006-4d97-a933-201b2a0d7068</testCaseGuid>
+</TestCaseEntity>

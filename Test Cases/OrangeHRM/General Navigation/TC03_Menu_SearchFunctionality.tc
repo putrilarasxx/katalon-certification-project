@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Menu_SearchFunctionality</name>
+   <tag>@UIValidation @Navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70c24573-a204-46e4-a0f9-447fb5103abe</testCaseGuid>
+</TestCaseEntity>

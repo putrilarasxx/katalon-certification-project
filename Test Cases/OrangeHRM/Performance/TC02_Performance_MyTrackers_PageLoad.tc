@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Performance_MyTrackers_PageLoad</name>
+   <tag>@Performance @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3e018f2-47e6-42fd-8528-676d6c69f659</testCaseGuid>
+</TestCaseEntity>

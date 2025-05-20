@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Recruitment_VacanciesPlaceholderVisible</name>
+   <tag>@Recruitment @UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>331e75cb-488e-48f6-87ba-f0acce8cc594</testCaseGuid>
+</TestCaseEntity>

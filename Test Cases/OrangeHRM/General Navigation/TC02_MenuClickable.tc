@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_MenuClickable</name>
+   <tag>@UIValidation @Navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ccc37fcd-b576-4804-9fe8-db98c40cdf0e</testCaseGuid>
+</TestCaseEntity>

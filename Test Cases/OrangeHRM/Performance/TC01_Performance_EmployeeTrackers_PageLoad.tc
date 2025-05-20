@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Performance_EmployeeTrackers_PageLoad</name>
+   <tag>@Performance @Functional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a260cced-cad3-4004-b072-3be0e963de11</testCaseGuid>
+</TestCaseEntity>

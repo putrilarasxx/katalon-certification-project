@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC01_Make an appointment with doctor</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3519f32-e8a6-492e-8590-05201cf9ba69</testCaseGuid>
+</TestCaseEntity>

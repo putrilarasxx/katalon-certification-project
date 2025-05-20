@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS01_Appointment validation,Chrome 136.0.7103.114,Contains all the cases related to appointment,,18-05-2025 14:48:04,18-05-2025 14:49:46,1m - 41.422s,FAILED
+,,,,,,,
+Test Cases/Main Test Case/MTC01_Make an appointment with doctor,Chrome 136.0.7103.114,,smoke,18-05-2025 14:48:05,18-05-2025 14:49:02,57.693s,FAILED
+"callTestCase(findTestCase(""Reuse Test Case/RTC01_Login into application""), [:], STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,18-05-2025 14:48:05,18-05-2025 14:48:43,38.206s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC03_Book an appointment""), [""healthcareCenter"":""Hongkong CURA Healthcare Center"", ""comment"":""Test katalon""], STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,18-05-2025 14:48:43,18-05-2025 14:49:02,19.059s,FAILED
+,,,,,,,
+Test Cases/Main Test Case/MTC02_Appointment confirmation from doctor,Chrome 136.0.7103.114,,,18-05-2025 14:49:02,18-05-2025 14:49:46,43.390s,FAILED
+"callTestCase(findTestCase(""Reuse Test Case/RTC01_Login into application""), [:], STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,18-05-2025 14:49:02,18-05-2025 14:49:31,28.769s,PASSED
+"callTestCase(findTestCase(""Reuse Test Case/RTC03_Book an appointment""), [""healthcareCenter"":""Hongkong CURA Healthcare Center"", ""comment"":""Test katalon""], STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,18-05-2025 14:49:31,18-05-2025 14:49:46,14.573s,FAILED

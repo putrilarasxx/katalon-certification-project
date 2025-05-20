@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Buzz_DeletePost</name>
+   <tag>@Buzz @Functional @Regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>470cf5b3-1926-4e35-9d4e-2566c4524d50</testCaseGuid>
+</TestCaseEntity>

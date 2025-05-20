@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Login_PlaceholderCheck</name>
+   <tag>@UIValidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e70ffe5-9bbd-4158-8a55-9abb128ec3d1</testCaseGuid>
+</TestCaseEntity>

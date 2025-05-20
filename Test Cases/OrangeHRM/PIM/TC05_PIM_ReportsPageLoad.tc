@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_PIM_ReportsPageLoad</name>
+   <tag>@Functional @SmokeTest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4083ed3a-0012-468d-8c1b-adadd0dda86a</testCaseGuid>
+</TestCaseEntity>
